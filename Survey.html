@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSSExe2.css">
+        <title>DOM Javascribt</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h3>Form Pendaftaran Umroh</h3>
+            </div>
+            <form action="">
+                <label for="nama">Nama</label><br>
+                <input type="text" placeholder="Nama anda" id="nama"><br><br>
+                <label for="nim">No pendaftaran</label><br>
+                <input type="text" placeholder="No pendaftaran anda" id="nim"><br>
+                <p>Paket Umroh yang:</p>
+
+                <input type="radio" name="peminatan" id="programming" value="umroh habibi">
+                <label for="programming">umroh habibi</label> <br>
+                <input type="radio" name="peminatan" id="desain" value="umroh qolby">
+                <label for="programming">umroh qolby</label> <br>
+                <input type="radio" name="peminatan" id="desain" value="umroh arba'in">
+                <label for="programming">umroh arba'in</label> <br>
+                <input type="radio" name="peminatan" id="desain" value="umroh awal ramadhan">
+                <label for="programming">umroh awal ramadhan</label> <br>
+                <label for="">Alamat</label> <br>
+                <textarea placeholder="Tulis alamat mu disini" name="alamat" id="alamat" cols="30" rows="5"></textarea><br><br>
+                <label for="angkatan">jenis Kelamin</label><br>
+                <select id="angkatan">
+                <option value="">Jenis Kelamin</option>
+                <option>Perempuan</option>
+                <option>Laki-laki</option>
+               </select><br><br>
+               <label for="tanggal">Tanggal Pendaftaran</label><br>
+               <input type="datetime-local" id="Test_datetimeLocal"><br><br>
+        <head>
+        </head>
+        <button type="submit" onclick="kirimData()">Kirim</button>
+        </form>
+        </div>
+        
+        <script src="JSExe2.js"></script>
+    </body>
+</html>
